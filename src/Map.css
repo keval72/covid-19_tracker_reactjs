@@ -1,0 +1,75 @@
+.map {
+  height: 500px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 16px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.map .leaflet-container {
+  height: 100%;
+}
+
+.info-container {
+  width: 150px;	
+}
+
+.info-flag {
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.info-flag img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.info-name {
+	margin-top: 2px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #555;
+}
+
+.info-confirmed {
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.info-confirmed span {
+	color: #000080;
+}
+
+.info-recovered {
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.info-recovered span {
+	color: #006400;
+}
+
+.info-deaths {
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.info-deaths span {
+	color: red;
+}
+
+.info-active {
+	color: #8a2be2;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.info-points {
+	color: #708090;
+	margin-top: 5px;
+	font-size: 10px;
+}
+ 
